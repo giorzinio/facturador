@@ -1,1 +1,65 @@
+ion-tab-bar  {    
+    max-height: 56px;
+    height: 95px;
+    max-height: 95px;
+    border: unset;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#tab-button-tab2 { 
+    border-top-right-radius: 0px !important;
+    box-shadow: 10pt -69px 12px 0pt #ffffff;
+}
+#tab-button-tab4 { 
+    border-top-left-radius: 10px !important;
+    box-shadow: 10pt -69px 1px 9pt #ffffff;
+}
+@media (min-width: 479px) {
+    #tab-button-tab2 { 
+        border-top-right-radius: none;
+        box-shadow: none;
+    }
+    #tab-button-tab4 { 
+        border-top-right-radius: none;
+        box-shadow: none;
+    }
+}
+ion-fab-button {
+    margin-top: -150px;
+    box-shadow: 0 0 0 11pt #ffffff;
+    border-radius: 50% !important;
+    border: solid 7px #27ae60;
+}
+ion-icon {
+    font-size: 20px
+}
+ion-badge {
+    left: -5px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -150px;
+}
+// #tab-button-tab3 {
+//     overflow: visible !important;
+//     max-height: 120px !important;
+//     height: 120px !important;
+//     border-top-left-radius: 20px;
+//     border-top-right-radius: 20px;
 
+//     ion-icon {
+//         transform: translate3d(0, 0px, 0);
+//         background: white;
+//         padding: 7px !important;
+//         border-radius: 50% !important;
+//         width: 30px !important;
+//         height: 30px !important;
+//         margin-top: -40px !important;
+//         box-shadow: 0 0 0 9pt #ffffff;
+//         color:#27ae60;
+//         border: solid 10px #27ae60;
+//         position: relative;
+        
+//     }  
+   
+// }
+ 
